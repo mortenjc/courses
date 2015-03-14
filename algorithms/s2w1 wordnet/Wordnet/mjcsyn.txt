@@ -1,0 +1,10 @@
+0,increase,blah0
+1,change alteration modification,blah1
+2,miracle,blah2
+3,happening occurrence natural_event, blah3
+4,event,blah4
+5,transition,blah5
+6,act human_activity human_action,blah6
+7,group_action,blah7
+8,action,blah8
+9,null,blah9

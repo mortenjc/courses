@@ -1,2 +1,0 @@
-# courses
-misc courses

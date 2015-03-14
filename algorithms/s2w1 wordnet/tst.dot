@@ -1,0 +1,12 @@
+digraph DG {
+"increase" -> "miracle"
+"change alteration modification" -> "happening occurrence natural_event"
+"miracle" -> "event"
+"happening occurrence natural_event" -> "event"
+"event" -> "null"
+"transition" -> "change alteration modification"
+"act human_activity human_action" -> "event"
+"group_action" -> "event"
+"group_action" -> "act human_activity human_action"
+"action" -> "act human_activity human_action"
+}

@@ -1,0 +1,41 @@
+digraph ex1 {
+
+graph [ rankdir = LR, overlap = false ];
+
+node [shape=circle, fixedsize=true];
+
+ 0 [pin= true, pos="0,0", label ="("]
+ 1 [pin= true, pos="1,0", label ="("]
+ 2 [pin= true, pos="2,0", label ="C"]
+ 3 [pin= true, pos="3,0", label ="|"]
+ 4 [pin= true, pos="4,0", label = "("]
+ 5 [pin= true, pos="5,0", label="B"]
+ 6 [pin= true, pos="6,0", label = "*"]
+ 7 [pin= true, pos="7,0"]
+ 8 [pin= true, pos="8,0"]
+ 9 [pin= true, pos="9,0"]
+10 [pin= true, pos="10,0"]
+11 [pin= true, pos="11,0"]
+12 [pin= true, pos="12,0"]
+13 [pin= true, pos="13,0"]
+
+edge [color = black];
+2 -> 3
+5 -> 6
+7 -> 8
+11 -> 12
+
+edge [color = red];
+0 -> 1
+1 -> 10
+1 -> 4
+1 -> 2 
+3 -> 9
+4 -> 5
+5 -> 6 -> 7
+6 -> 5
+8 -> 9
+9 -> 10 10 -> 11
+10 -> 1
+12 -> 13
+}
